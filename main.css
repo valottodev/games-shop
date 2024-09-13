@@ -12,7 +12,7 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
+    background: url('./images/jazz.jpg');
     color: #ecf0f3;
 }
 
@@ -75,7 +75,7 @@ section p {
     margin-bottom: 8px;
 }
 
-.img-loja {
+.img-main {
     margin-right: 32px;
 }
 
@@ -103,19 +103,19 @@ form textarea {
 }
 
 form button {
-    background-color: #182C61;
+    background-color: #000;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: #d02626;
 }
 
 input:focus,
 textarea:focus {
-    outline-color: #182C61;
+    outline-color: #000;
 }
 
 .social-links img {
@@ -132,7 +132,7 @@ textarea:focus {
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #000;
     color: #ecf0f1;
     padding: 16px 0;
 }
